@@ -9,8 +9,9 @@ class Main {
     System.out.println(factorial(factNumber));
     System.out.println("please enter a number for triangle number thingy: ");
     double triNumber = numberInput.nextDouble();
-    System.out.println(triangle(triNumber));
     System.out.print("you have entered " + triNumber + ". The sum is: ");
+    System.out.println(triangle(triNumber));
+
   }
 
   public static double factorial(double number) {
